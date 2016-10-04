@@ -1,0 +1,315 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    
+    <title>Bradsa | Dashboard</title>    
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/registration.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/nav.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+
+    <link rel="icon"  href="assets/img/bradsa_logo.ico">
+</head>
+<body>
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <nav id="spy">
+                <ul class="sidebar-nav nav">
+                    <li class="sidebar-brand">
+                        <a href="dashboard.html"><span class="fa fa-home solo"></span><img src="assets/img/bradsa_logo_small2.png"></a>
+                    </li>
+                    <li>
+                        <a href="dashboard.html" data-scroll>
+                            <span class="fa fa-anchor solo">Dashboard</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="create_task.html" data-scroll>
+                            <span class="fa fa-anchor solo">Create Task</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="view_task.html" data-scroll>
+                            <span class="fa fa-anchor solo">View Task</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="trash.html" data-scroll>
+                            <span class="fa fa-anchor solo">Trash</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            </div>
+
+        <!-- Page content -->
+    <div id="page-content-wrapper">
+            <div class="content-header">
+            <div style="background-color: #45f0df">
+                <h1 id="home">
+                    <a id="menu-toggle" href="#" class="glyphicon glyphicon-align-justify btn-menu toggle">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                    Dashboard
+                </h1>
+                <a href="index.html"><button class="btn btn-lg butt pull-right">Log out</button></a>
+            </div>
+            </div>
+
+            	 <div class="row" style="margin-bottom: 2em;">
+                        <div class="text-center greeting">
+                            <h1 id="greeting" style="color: #111D4A;"></h1>                         
+                            
+                            <span id="btn-upgrade"><p><a href="#" class="btn btn-danger">Up Grade!</a></p></span>
+                        </div>
+
+                        <div>
+                            <span id="btn-help"><p><a href="help.html" class="btn btn-success">HELP ?</a></p></span>
+                        </div>    
+                </div>
+
+             <div class="page-content inset" data-spy="scroll" data-target="#spy">
+                <div class="row" style="margin-top: 2em;">
+                	<div class="col-md-12">
+                		<center>
+                			<section>
+                    		<div class="card col-sm-2">
+						  <img src="assets/img/ada.jpg" alt="Avatar" style="width:100%">
+						  
+						    <div style="margin-bottom: 0.5em;">
+						    <h5><b>Ada Santi</b></h5>
+						    <input type="file" name="image" value="image"><br>
+                    		<input type="submit" name="submit" value="Upload Image" class="btn btn-info">
+                    		</div>
+						  </div2>					
+                    	</section>
+                		</center>                		
+                	</div>                	
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+
+                    	<center>
+					     <section>		      	
+						<div class="col-sm-6">
+						<div style="background-color: #286090; color: white; border-radius: 3%">
+						<h3 style="padding-top: 1em;">Ongoing Tasks</h3>
+						<hr>
+						<div class="card-content table-responsive">
+						<table class="table" style="color:white;">
+							<thead>
+								<tr>
+									<th>S/N</th>
+									<th>Task</th>
+									<th>Date</th>
+									<th></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>1</td>
+									<td>Call Family</td>
+									<td>12/09/2016</td>
+									<td><button class="btn btn-danger">Edit</button></td>
+								</tr>
+								<tr>
+									<td>2</td>
+									<td>Complete Marathon</td>
+									<td>12/09/2016</td>
+									<td><button class="btn btn-danger">Edit</button></td>
+								</tr>
+								<tr>
+									<td>2</td>
+									<td>Balance Account</td>
+									<td>12/09/2016</td>
+									<td><button class="btn btn-danger">Edit</button></td>
+								</tr>
+							</tbody>
+						</table>
+						</div>
+						</div>
+						</div>	
+						
+						
+						<div class="col-sm-6">
+						<div style="background-color: #5BC0DE; color:white; border-radius: 3%;">
+						<h3 style="padding-top: 1em;">Task Over Due</h3>
+						<hr>
+						<div class="card-content table-responsive">
+						<table class="table" style="color:white;">
+							<thead>
+								<tr>
+									<th>S/N</th>
+									<th>Task</th>
+									<th>Date</th>
+									<th></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>1</td>
+									<td>Start fasting</td>
+									<td>12/09/2016</td>
+									<td><button class="btn btn-success">Reschedule</button></td>
+								</tr>
+								<tr>
+									<td>2</td>
+									<td>Walk the dog</td>
+									<td>12/09/2016</td>
+									<td><button class="btn btn-success">Reschedule</button></td
+								</tr>
+								<tr>
+									<td>3</td>
+									<td>Start Packing</td>
+									<td>12/09/2016</td>
+									<td><button class="btn btn-success">Reschedule</button></td
+								</tr>
+							</tbody>
+						</table>
+						</div>
+						</div>	
+						</div>
+					</section>
+
+					<section>		      	
+						<div class="col-sm-6">
+						<div style="background-color: orange; color: white; border-radius: 3%">
+						<h3 style="padding-top: 1em;">Reminder</h3>
+						<hr>
+						<div class="card-content table-responsive">
+						<table class="table" style="color:white;">
+							<thead>
+								<tr>
+									<th>S/N</th>
+									<th>Task</th>
+									<th>Date</th>
+									<th></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>1</td>
+									<td>Call Family</td>
+									<td>12/09/2016</td>
+									<td><button class="btn btn-info">Edit</button></td>
+								</tr>
+								<tr>
+									<td>2</td>
+									<td>Complete Marathon</td>
+									<td>12/09/2016</td>
+									<td><button class="btn btn-info">Edit</button></td>
+								</tr>
+								<tr>
+									<td>2</td>
+									<td>Balance Account</td>
+									<td>12/09/2016</td>
+									<td><button class="btn btn-info">Edit</button></td>
+								</tr>
+							</tbody>
+						</table>
+						</div>
+						</div>
+						</div>	
+						
+						
+						<div class="col-sm-6">
+						<div style="background-color: seagreen; color:white; border-radius: 3%;">
+						<h3 style="padding-top: 1em;">Important Task</h3>
+						<hr>
+						<div class="card-content table-responsive">
+						<table class="table" style="color:white;">
+							<thead>
+								<tr>
+									<th>S/N</th>
+									<th>Task</th>
+									<th>Date</th>
+									<th></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>1</td>
+									<td>Start fastiwarning
+									<td>12/09/2016</td>
+									<td><button class="btn btn-warning">Edit</button></td>
+								</tr>
+								<tr>
+									<td>2</td>
+									<td>Walk the dog</td>
+									<td>12/09/2016</td>
+									<td><button class="btn btn-warning">Edit</button></td
+								</tr>
+								<tr>
+									<td>3</td>
+									<td>Start Packing</td>
+									<td>12/09/2016</td>
+									<td><button class="btn btn-warning">Edit</button></td
+								</tr>
+							</tbody>
+						</table>
+						</div>
+						</div>	
+						</div>
+					</section>
+
+					</center>
+
+					</div>
+				</div>
+	
+			
+		<div style="margin-bottom: -2em;">
+			<center>
+				<footer style="padding: 1em;">
+					All Right Reserved. Bradsa 2016&copy;
+				</footer>
+			</center>
+		</div>
+	</div>
+
+		<!-- internal js for greeting -->
+	<script type="text/javascript">
+		var d, time, minutes, hours, message;
+		d = new Date()
+		hours= d.getHours()
+		minutes=d.getMinutes()
+
+		hours = (hours < 10) ? "0" + hours : hours.toString();
+
+		if (minutes < 10) {
+			minutes = "0" + minutes;			
+		} 
+		else 
+		{
+			minutes= minutes.toString();
+		}
+
+		time = Number(hours + minutes);
+
+		if (time >= 0000 && time <= 1200) {
+			document.getElementById("greeting").innerHTML = ("Good morning, Ada Santi");
+		} 
+		else if (time >= 1200 && time <= 1600){
+			document.getElementById("greeting").innerHTML =("Good afternoon, Ada Santi"); 
+		}
+		else if (time >= 1600 && time <= 2100){
+			document.getElementById("greeting").innerHTML =("Good evening, Ada Santi"); 
+		}
+		else if (time >= 2100 && time <= 2359){
+			document.getElementById("greeting").innerHTML =("Good night, Ada Santi"); 
+		}
+
+	</script>
+
+	 <script type="text/javascript" src="assets/js/jquery.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.js"></script>
+    <script type="text/javascript" src="assets/js/nav.js"></script>
+</body>
+</html>

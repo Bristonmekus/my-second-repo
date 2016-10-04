@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+	<title>Bradsa|Dashboard</title>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+	<link rel="stylesheet" href="assets/css/styles2.css">
+	<link rel="icon"  href="assets/img/bradsa_logo.ico">
+</head>
+<body style="color: white;">
+	<header class="jumbotron col-md-12">
+	<span class="col-md-4" style="margin: -2em 0em -2em -1em"><img src="assets/img/bradsa_logo_small.png"></span>
+	<center><span class="col-md-4" style="margin: -2em 0em -2em -2em; color:#111D4A;"><h1 class="col-md-1">Dashboard</h1></span></center>
+	<a href="login.html"><span class="col-md-4" style="margin: -2em -2em -2em -2em"><button class="btn btn-success col-md-4 pull-right">
+	Logout</button></span></a>
+	</header>
+
+	<section>
+		<div class="col-md-2 row sidebar">
+		<div style="background-color: lightblue;">
+		<ul class="nav nav-sidebar">
+            <li class="active"><a href="dashboard.html">Dashboard <span class="sr-only">(current)</span></a></li>
+            <li><a href="create_task.html">Create Task</a></li>
+            <li><a href="view_task.html">View Task</a></li>
+            <!-- <li><a href="settings.html">Settings</a></li> -->
+            <li><a href="trash.html">Trash</a></li>
+          </ul>
+		</div>
+		</div>
+		
+	</section>
+
+	<div>
+	<center>
+	<section>
+		<div class="col-sm-5">
+		<div style="background-color: green">
+		<h3>All Tasks</h3>
+		<hr>
+		<div class="card-content table-responsive">
+		<table class="table">
+			<thead>
+				<tr>
+					<th>S/N</th>
+					<th>Task</th>
+					<th>Date</th>
+					<th>Edit</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>1</td>
+					<td>Call Family</td>
+					<td>12/09/2016</td>
+					<td><button class="btn btn-danger">Edit</button></td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Complete Marathon</td>
+					<td>12/09/2016</td>
+					<td><button class="btn btn-danger">Edit</button></td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Balance Account</td>
+					<td>12/09/2016</td>
+					<td><button class="btn btn-danger">Edit</button></td>
+				</tr>
+			</tbody>
+		</table>
+		</div>
+		</div>
+		</div>	
+		
+		
+		<div class="col-sm-5">
+		<div style="background-color: red">
+		<h3>Deleted Task</h3>
+		<hr>
+		<div class="card-content table-responsive">
+		<table class="table">
+			<thead>
+				<tr>
+					<th>S/N</th>
+					<th>Task</th>
+					<th>Date</th>
+					<th>Restore</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>1</td>
+					<td>Start fasting</td>
+					<td>12/09/2016</td>
+					<td><button class="btn btn-success">Restore</button></td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Walk the dog</td>
+					<td>12/09/2016</td>
+					<td><button class="btn btn-success">Restore</button></td
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>Start Packing</td>
+					<td>12/09/2016</td>
+					<td><button class="btn btn-success">Restore</button></td
+				</tr>
+			</tbody>
+		</table>
+		</div>
+		</div>	
+		</div>
+	</section>
+
+	</center>
+	</div>
+	<div id="foot">
+		<center>
+			<footer>
+				All Right Reserved. Bradsa 2016&copy;
+			</footer>
+		</center>
+	</div>
+</body>
+</html>

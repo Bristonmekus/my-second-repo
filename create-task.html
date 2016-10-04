@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+ 	<title>Bradsa | Create Task</title>
+ 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+ 	<!-- <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+ 	<link rel="stylesheet" type="text/css" href="assets/css/registration.css"> -->
+	<link rel="icon"  href="assets/img/bradsa_logo.ico">
+
+	<style type="text/css">
+		.scrolling table {
+    table-layout: inherit;
+ *margin-left: -100px;/*ie7*/
+}
+.scrolling td, th {
+    vertical-align: top;
+	padding: 10px;
+	min-width: 100px;
+}
+.scrolling th {
+	position: absolute;
+ *position: relative; /*ie7*/
+	left: 0;
+	width: 120px;
+}
+.outer {
+	position: relative
+}
+.inner {
+	overflow-x: auto;
+	overflow-y: visible;
+	margin-left: 120px;
+}
+
+	</style>
+</head>
+
+<body>
+
+		<!-- Header -->
+	<header>
+
+		<!-- Logo -->
+	<span class="col-md-4><img src="assets/img/bradsa_logo_small.png"></span>
+
+		<!-- Header Text -->
+	<center><span class="text-center col-md-4"><h1>Create Task</h1></span></center>
+
+		<!-- Logout Button -->
+	<a href="login.html"><span class="pull-right"><button class="btn btn-lg butt">Logout</button></span></a>
+	<h4>Hello leapon</h4>
+	<h5>Package: Regular</h5>
+	<div>
+	<a href="login.html"><span class="pull-right"><button class="btn btn-lg btn-success">Up Grade!</button></span></a>
+	</div>
+	</header>
+
+		<!-- Side Navigation dropdown -->
+	<div class="navbar navbar-inverse navbar-fixed-left">
+  <a class="navbar-brand" href="#">Brand</a>
+  <ul class="nav navbar-nav">
+   <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
+     <ul class="dropdown-menu" role="menu">
+      <li><a href="#">Sub Menu1</a></li>
+      <li><a href="#">Sub Menu2</a></li>
+      <li><a href="#">Sub Menu3</a></li>
+      <li class="divider"></li>
+      <li><a href="#">Sub Menu4</a></li>
+      <li><a href="#">Sub Menu5</a></li>
+     </ul>
+   </li>
+   <li><a href="#">Link2</a></li>
+   <li><a href="#">Link3</a></li>
+   <li><a href="#">Link4</a></li>
+   <li><a href="#">Link5</a></li>
+  </ul>
+</div>
+<div class="container">
+ <div class="row">
+   <h2>Left side Navigation bar (Fixed)</h2>
+   
+   <p>Left side Navigation</p>
+ </div>
+</div>
+		<!-- Create Task -->
+	<center>
+		<section id="task_form" class="my-form">
+				<form >
+						<div class="form-group">
+	                       <p>
+		                       <div class="input-group">
+		                            <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-user"></span></span>
+		                            <input type="text" class="form-control" placeholder="Your Task" aria-describedby="basic-addon1">
+		                        </div>
+	                        </p>
+	                    </div>
+	                    <div class="form-group">
+	                    	<p>
+	                        	<div class="input-group">
+	                            <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-user"></span></span>
+	                            <input type="date" class="form-control" placeholder="Date" aria-describedby="basic-addon1">
+	                        	</div>
+	                        </p>
+	                    </div>
+
+	                    <div class="form-group">
+	                        <div class="input-group">
+	                            <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-user"></span></span>
+	                            <input type="time" class="form-control" placeholder="Time" aria-describedby="basic-addon1">
+	                        </div>
+	                    </div>
+						<!-- <p><label>Your Task</label><input type="text" name="task" placeholder="Your Task"></p>			
+						<p><label>Date</label><input type="date" name="date" placeholder="Date"></p>
+						<p><label>Time</label><input type="time" name="time" placeholder="Time"></p> -->	
+						<p><select name="setReminder" value="Set Reminder">
+							<option value="reminder">Set Reminder</option>
+						    <option value="on_time">On Time</option>
+						    <option value="five-minutes">5 Minutes</option>
+						    <option value="ten_minutes">10 Minutes</option>
+						    <option value="thirty_minutes">30 Minutes</option>
+						    <option value="one_hour">1 Hour</option>
+						    <option value="one_day">1 Day</option>
+						    <option value="seven_days">7 Days</option>
+		 				</select></p>
+
+		 					<!-- Text Area -->
+		 				<div>
+		 				<textarea name="message" rows="10" cols="40" placeholder="Notes">
+
+						</textarea>
+						</div>
+						<span><button>Create Task</button></span>
+				</form>
+		</section>
+	</center>
+	<div id="foot">
+		<center>
+			<footer>
+				All Right Reserved. Bradsa 2016&copy;
+			</footer>
+		</center>
+	</div>
+</body>
+</html>
